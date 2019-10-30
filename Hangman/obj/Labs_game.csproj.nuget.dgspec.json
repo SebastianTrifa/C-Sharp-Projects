@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\VisualStudio\\C-Sharp-Sparta-Course\\Labs_game\\Labs_game.csproj": {}
+  },
+  "projects": {
+    "C:\\VisualStudio\\C-Sharp-Sparta-Course\\Labs_game\\Labs_game.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\VisualStudio\\C-Sharp-Sparta-Course\\Labs_game\\Labs_game.csproj",
+        "projectName": "Labs_game",
+        "projectPath": "C:\\VisualStudio\\C-Sharp-Sparta-Course\\Labs_game\\Labs_game.csproj",
+        "packagesPath": "C:\\Users\\Vernulft\\.nuget\\packages\\",
+        "outputPath": "C:\\VisualStudio\\C-Sharp-Sparta-Course\\Labs_game\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vernulft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
